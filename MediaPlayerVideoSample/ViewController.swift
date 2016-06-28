@@ -8,6 +8,7 @@
 
 import UIKit
 import AVFoundation
+import AVKit
 
 class ViewController: UIViewController {
 
@@ -23,6 +24,13 @@ class ViewController: UIViewController {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
+        let destination = segue.destinationViewController as! AVPlayerViewController
+        let bundle = NSBundle.mainBundle()
+        
+        // our video
+        let movPath = bundle.pathForResource("02", ofType: "mov")
+        let url = NSURL(fileURLWithPath: movPath!)
+        destination.player = AVPlayer(URL: url)
     }
 
 
