@@ -12,6 +12,7 @@
 		589603931D2306C900887DB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 589603911D2306C900887DB9 /* Main.storyboard */; };
 		589603951D2306C900887DB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 589603941D2306C900887DB9 /* Assets.xcassets */; };
 		589603981D2306C900887DB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 589603961D2306C900887DB9 /* LaunchScreen.storyboard */; };
+		589603A01D23073A00887DB9 /* 02.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5896039F1D23073A00887DB9 /* 02.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		589603941D2306C900887DB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		589603971D2306C900887DB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		589603991D2306C900887DB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5896039F1D23073A00887DB9 /* 02.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 02.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		5896038C1D2306C900887DB9 /* MediaPlayerVideoSample */ = {
 			isa = PBXGroup;
 			children = (
+				5896039F1D23073A00887DB9 /* 02.mov */,
 				5896038D1D2306C900887DB9 /* AppDelegate.swift */,
 				5896038F1D2306C900887DB9 /* ViewController.swift */,
 				589603911D2306C900887DB9 /* Main.storyboard */,
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				589603A01D23073A00887DB9 /* 02.mov in Resources */,
 				589603981D2306C900887DB9 /* LaunchScreen.storyboard in Resources */,
 				589603951D2306C900887DB9 /* Assets.xcassets in Resources */,
 				589603931D2306C900887DB9 /* Main.storyboard in Resources */,
